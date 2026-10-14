@@ -1,0 +1,14 @@
+# Build output
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Never commit patient data or converted videos
+*.dcm
+DICOMDIR
+All_Converted_Videos/
+*.mp4
+
+.DS_Store
+.venv/
